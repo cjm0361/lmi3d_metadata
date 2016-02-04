@@ -1,0 +1,4 @@
+services:
+  lmi3d_metadata.manager:
+    class: Drupal\lmi3d_metadata\Lmi3dMetadataManager
+    arguments: ['@serializer', '@plugin.manager.rest', '@current_user', '@entity.manager', '@rest.link_manager']

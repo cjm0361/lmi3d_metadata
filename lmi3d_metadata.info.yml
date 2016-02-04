@@ -1,0 +1,14 @@
+name: 'lmi3d metadata'
+type: module
+core: 8.x
+version: 8.x-1.0
+features:
+dependencies:
+  - node
+  - user
+  - path
+  - standard
+  - features
+  - default_content
+  - content_feature
+  - taxonomy_feature
